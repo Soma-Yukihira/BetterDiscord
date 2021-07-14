@@ -1,0 +1,917 @@
+/**
+ * @name artoria
+ * @version 2.1
+ * @author Sukuna Itadori#0570
+ * @authorId 489294976837222400
+ * @description fate
+ * @source https://github.com/Soma-Yukihira/BetterDiscordThemes
+
+**/
+
+@import url(https://raw.githack.com/002Alone/BetterDiscordTheme/master/Transparency2.css);
+@import url(https://rawcdn.githack.com/002Alone/BetterDiscordTheme/9029b21c42e3676d59e10fa126e389ea3555ef0f/Code.css);
+:root {
+    /* background URL */ /* default url https://i.imgur.com/piL8fUj.jpg / https://i.imgur.com/ZloyrFk.png */
+    --background-image: url(https://i.imgur.com/jrOAqTw.jpg) center/cover no-repeat;
+    /* Guild and Top bar transparency */
+    --transparency-1: linear-gradient(to left, rgba(0,0,0,0.65), rgba(0,0,0,0.85));
+    /* transparency for channels and private channels */
+    --transparency-2: linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.65));
+    /* chat and top area and other secondary pages */
+    --transparency-3: linear-gradient(to right, rgba(0,0,0,0.65), rgba(0,0,0,0.55));
+    /* member list */
+    --transparency-4: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.65));
+    /* transparecy with gradient of top bar */
+    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.75),rgba(0,0,0,0.65), rgba(0,0,0,0.62), rgba(0,0,0,0.60),rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+/* ---------------------------------------------------------------- */
+    --cfix-opacity: 0.75;
+    --themeColor1:#E2D3D7;
+    --themeColor2:#95839E;
+    --size-light: 9px;
+    --color-light: #ec457b;
+    --prfil-user-opacity: 0.5;
+    --color-stream: #fff;
+  --background-image-blur: 0px;
+  --main-color: #ec457b;
+    
+}
+/* ---------------------------------------------------------------- */
+/* Actual code -- Dont touch unless you know what you're doing.*/
+
+.base-3dtUhz .sidebar-2K8pFh  {
+    background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+
+.sidebar-2K8pFh .container-3w7J-x {
+    background-color: transparent;
+}
+
+.sidebar-2K8pFh .clickable-25tGDB .header-2V-4Sw:hover,
+.sidebar-2K8pFh .selected-31Nl7x .header-2V-4Sw {
+    background-color: rgba(0,0,0,calc(var(--cfix-opacity)/2));
+}
+/* ---------------------------------------------------------------- */
+.theme-dark .container-3baos1, .theme-light .container-3baos1 { /* PROFIL EN BAS A GAUCHE */
+    background: var(--transparency-100);
+}
+/* ---------------------------------------------------------------- */
+.privateChannels-1nO12o { /* MESSAGES PRIVÉS */
+    background: transparent !important;
+    background-image: var(--transparency-100);
+}
+/* ---------------------------------------------------------------- */
+.image-1GzsFd { /* TAILLE WUMPUS */
+    background-size: none;
+}
+/* ---------------------------------------------------------------- */
+.theme-dark .text-GwUZgS, .theme-dark .title-2BxgL2 { /* CHANGER LA COULEUR DE TEXTE D'AMIS (EN ATTENTE/BLOQUÉ) WUMPUS */
+    color: none;
+}
+/* ---------------------------------------------------------------- */
+.theme-dark .container-1D34oG { /* BACKGROUND AMIS */
+    background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+/* ---------------------------------------------------------------- */
+.stickyScroller-24zUyY { /* BACKGROUND BIBLIOTHÈQUE */
+    background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+/* ---------------------------------------------------------------- */
+.colorStreamerMode-2SJAUN { /* MODE STREAM AVEC OPACITÉ */
+background-color: rgba(0,0,0,var(--cfix-opacity));
+    color: var(--color-stream);
+}
+.theme-dark .button-2DhvE9, .theme-light .button-2DhvE9 {
+background-color: rgba(0,0,0,0.2);
+}
+/* ---------------------------------------------------------------- */
+.icon-2aINcz, .text-2e2ZyG { /* MESSAGES NON LUS */
+    display: block;
+}
+.unread-1xRYoj { 
+    background-color: var(--background-accent);
+    opacity: .9;
+}
+.unreadBottom-1_LF_w {
+    bottom: 0;
+}
+.unread-15xhX5 {
+    left: 0;
+    right: 0;
+}
+.container-35XQWE {
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    padding: 8px;
+    height: 24px;
+    pointer-events: none;
+}
+.unread-1xRYoj {
+    background-color: rgba(0,0,0,0.15);
+    opacity: .9;
+}
+.bar-30k2ka {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #fff;
+    height: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 12px;
+    pointer-events: auto;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,.24);
+    box-shadow: 0 2px 6px rgba(0,0,0,.24);
+    -webkit-app-region: no-drag;
+}
+.bar-30k2ka {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #fff;
+    height: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 12px;
+    pointer-events: auto;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,.24);
+    box-shadow: 0 2px 6px rgba(0,0,0,.24);
+    -webkit-app-region: no-drag;
+}
+.container-35XQWE {
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    padding: 8px;
+    height: 24px;
+    pointer-events: none;
+} 
+/* ---------------------------------------------------------------- */
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 { /* PROFILE USERS */
+    background-color: rgba(0,0,0,var(--prfil-user-opacity));
+    color: hsla(0,0%,100%,.8);
+}
+.theme-dark .headerNormal-T_seeN {
+    background-color: rgba(0,0,0,var(--prfil-user-opacity));
+}
+/* ---------------------------------------------------------------- */
+.header-2BwW8b { /* PROFILE BOTS */
+    color: #fff;
+    line-height: 20px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    background-color: rgba(0,0,0,var(--prfil-user-opacity));
+}
+/* ---------------------------------------------------------------- */
+.modeMuted-onO3r- .icon-1DeIlz, .modeMuted-onO3r- .name-23GUGE { /* CHANNELS MUETS */
+    color: none;
+}
+/* ---------------------------------------------------------------- */
+.drawerSizingWrapper-17Mss4 { /* PANNEL EMOJIS */
+    background-color: rgba(0,0,0,0.3);
+}
+.inspector-3LQtX9 {
+    background-color: rgba(0,0,0,0);
+}
+/* ---------------------------------------------------------------- */
+.theme-dark .uploadModal-2ifh8j { /* ENVOYER FICHIER OU IMAGE */
+    background-color: rgba(0,0,0,0.5);
+}
+.theme-dark .footer-3mqk7D {
+    background-color: rgba(0,0,0,0);
+}
+/* ---------------------------------------------------------------- */
+.hljs-comment, .hljs-quote { /* TEXTE CSS */
+    color: rgba(0,0,0,0.9);
+}
+/* ---------------------------------------------------------------- */
+.scrollableContainer-2NUZem { /* LUMIERE ENVOYER UN MESSAGE */
+    filter: drop-shadow(0 0 var(--size-light) var(--color-light));
+}
+/* ---------------------------------------------------------------- */
+.membersGroup-v9BXpm { /* BARRE MEMBRES */
+    position:relative;
+    z-index:2;
+    padding:19px 8px 5px 16px;
+    text-align:center;
+    letter-spacing:1px;
+    color:#e6e6e6;
+    border-bottom-width:2px;
+    border-style:solid;
+  border-image:linear-gradient(to right,transparent,var(--themeColor1),var(--themeColor2),transparent) 1;
+}
+.membersGroup-v9BXpm::after,
+.membersGroup-v9BXpm::before {
+  content:"";
+  position:absolute;
+  width:50%;
+  height:100%;
+  top:0;
+  background-color: transparent;
+  z-index:-1;
+  border-image:linear-gradient(to right,transparent,var(--themeColor1),var(--themeColor2),transparent) 1;
+}
+.membersGroup-v9BXpm::before {
+    left:0;
+    box-shadow:80px 50px 30px 0 var(--themeColor2);
+}
+.membersGroup-v9BXpm::after {
+    right:0;
+    box-shadow:-80px 50px 30px 0 var(--themeColor1);
+}
+.membersGroup-v9BXpm span {
+    text-shadow:0 1px 5px #000;
+}
+.theme-dark .membersGroup-v9BXpm {
+    box-shadow: 0 0px 0 rgba(0,0,0,.3);
+}
+/* ---------------------------------------------------------------- */
+.button-14-BFJ { /* Button paramètres, vocal, micro */
+    filter: drop-shadow(0 0 5px black);
+}
+/* ---------------------------------------------------------------- */
+.container-3XJ8ns { /* Ajout rôles aux membres */
+    background-color: black;
+}
+/* ---------------------------------------------------------------- */
+#app-mount:before { /* flou background */
+  content: "";
+  background: var(--background-image);
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
+  position: absolute;
+  height: calc(100vh + (var(--background-image-blur) * 2));
+  width: calc(100vw + (var(--background-image-blur) * 2));
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#app-mount .layers-3iHuyZ:before {
+  content: "";
+  background: var(--background-image);
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
+  background-repeat: var(--background-image-repeat, no-repeat);
+  height: calc(100vh + (var(--background-image-blur) * 2));
+  width: calc(100vw + (var(--background-image-blur) * 2));
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  filter: blur(var(--background-image-blur));
+  pointer-events: none;
+  -webkit-user-select: none;
+          user-select: none;
+}
+/* ---------------------------------------------------------------- */
+.premiumPromo-fVlLu- { /* Emojis Premium */
+  background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+/* ---------------------------------------------------------------- */
+.name-3l27Hl { /* Couleur barre rôles */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color: var(--main-color);
+    font-weight:700;
+    text-align:center;
+    transition:all .3s ease-in-out;
+    opacity:0.7;
+}
+.name-3l27Hl:before {
+    content:"";
+    height:2px;
+    flex-grow:1;
+    transition:all .3s ease-in-out;
+    background:linear-gradient(to left, var(--main-color) 50%, transparent);
+    margin-right:5px
+}
+.name-3l27Hl:after {
+    content:"";
+    height:2px;
+    flex-grow:1;
+    transition:all .3s ease-in-out;
+    background:linear-gradient(to right, var(--main-color) 50%, transparent);
+    margin-left:5px;
+}
+.mainContent-2h-GEV:hover .name-3l27Hl {
+    opacity:1;
+}
+.sidebar-2K8pFh .containerDefault-3tr_sE .wrapper-PY0fhH .name-3l27Hl,
+.sidebar-2K8pFh .containerDragAfter-Zk9oyx .wrapper-PY0fhH .name-3l27Hl,
+.sidebar-2K8pFh .containerDragBefore-1YqewQ .wrapper-PY0fhH .name-3l27Hl,
+.sidebar-2K8pFh .containerUserOver-98-yc7 .wrapper-PY0fhH .name-3l27Hl {
+    color:var(--main-color);
+}
+.children-L002ao {
+    margin-left:3px
+}
+.collapsed-2-tg8y .name-3l27Hl:before,
+.collapsed-2-tg8y .name-3l27Hl:after{
+    flex-grow:0;
+}
+/* ---------------------------------------------------------------- */
+.withFrame-haYltI { /* Barre Discord */
+    border-bottom: 2px solid;
+    border-color: #5e1615;
+    animation: rainbow 4s linear infinite;
+}
+@keyframes rainbow {
+    0%, 100% {
+        border-color: #CCA6E7;
+    }
+    25% {
+        border-color: #CCA6E7;
+    }
+    50% {
+        border-color: #66C6EE;
+    }
+    75% {
+        border-color: #212438;
+    }
+}
+/* ---------------------------------------------------------------- */
+.scrollableContainer-2NUZem {
+  width: 100%;
+  margin: auto;
+}
+/* ---------------------------------------------------------------- */
+@keyframes RgbAni {
+   0% {
+      box-shadow: 0 0 0 3px #CCA6E7;
+      background-position: 0% 50%
+   }
+   25% {
+      box-shadow: 0 0 0 3px #CCA6E7;
+      background-position: 100% 25%
+   }
+   50% {
+      box-shadow: 0 0 0 3px #66C6EE;
+      background-position: 100% 50%
+   }
+   75% {
+      box-shadow: 0 0 0 3px #CCA6E7;
+      background-position: 100% 75%
+   }
+   100% {
+      box-shadow: 0 0 0 3px #CCA6E7;
+      background-position: 0% 50%
+   }
+}
+
+.channelTextArea-2VhZ6z .scrollableContainer-2NUZem:focus-within {
+    animation: RgbAni 5s ease infinite;
+}*/
+/* ---------------------------------------------------------------- */
+.emojiSection-3Fb9ix {
+  background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+.hljs-comment, .hljs-quote {
+  color: purple;
+}
+.wordmarkWindows-1v0lYD::after {
+   content: "by Sukuna Itadori";
+   color: var(--text-muted);
+   font-size: 14px;
+   font-weight: 700;
+   width: 300px;
+   position: absolute;
+   top: 5px;
+   padding-left: 5px;
+}
+/* ---------------------------------------------------------------- */
+.layer-v9HyYc { /* Background emoji selection*/
+  background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+/* ---------------------------------------------------------------- */
+ .menu-3sdvDG { /* click droit profile */
+  background-color: rgba(0,0,0,var(--cfix-opacity));
+  border: 2px solid var(--themeColor1);
+  /*filter: drop-shadow(0 0 var(--size-light) var(--color-light));*/
+  
+}
+/* ---------------------------------------------------------------- */
+.userPopout-3XzG_A { /* click gauche profil*/
+  border: 2px solid var(--themeColor1);
+ }
+.inputWrapper-31_8H8 .input-cIJ7To { /* click gauche profil envoyer un message*/
+ filter: drop-shadow(0 0 var(--size-light) var(--themeColor1));
+ border: 2px solid var(--themeColor1);
+}
+/* ---------------------------------------------------------------- */
+.scrollableContainer-2NUZem { /* Barre envoyer un message */
+  background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+#bd-settingspane-container .ui-switch-item { /* bord de la sélection des thèmes (dans thèmes) */
+  border: 3px solid var(--themeColor1);
+}
+.side-8zPYf6 {
+  border: 3px solid var(--themeColor1);
+}
+/* ---------------------------------------------------------------- */
+.mainContent-2h-GEV:before { /* couleur catégories */
+    background-color: var(--themeColor1);
+    opacity: 0.2;
+    border-radius: 15px;
+}
+/* ---------------------------------------------------------------- */
+.userPopout-3XzG_A { /* click gauche profil*/
+ border-bottom: 2px solid;
+    border-color: var(--linearcolor1);
+    animation: rainbow-2 4s linear infinite;
+}
+@keyframes rainbow-2 {
+    0%, 100% {
+        border-color: var(--linearcolor1);
+    }
+    25% {
+        border-color: var(--linearcolor2);
+    }
+    50% {
+        border-color: var(--linearcolor3);
+    }
+    75% {
+        border-color: var(--linearcolor4);
+    }
+}
+.platform-win .scroller-1Bvpku {
+  background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+.container-UC8Ug1 {
+  background-color: rgba(0,0,0,.3);
+}
+to change the text color:  .markup-2BOw-j {
+  color: green;
+}
+.theme-dark ::-webkit-scrollbar-thumb {
+    border-color: transparent !important;
+    background: rgba(11, 25, 38, 0.5) !important;
+}
+.theme-dark ::-webkit-scrollbar-thumb, .chat-3bRxxu ::-webkit-scrollbar-thumb {
+    background-color: green !important;
+    border-color: transparent !important;
+}
+.theme-dark ::-webkit-scrollbar-thumb, .chat-3bRxxu ::-webkit-scrollbar-thumb:hover {
+    background-color: green !important;
+    border-color: transparent !important;
+}
+
+
+
+.theme-dark ::-webkit-scrollbar, .chat-3bRxxu ::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+.auto-Ge5KZx::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+.auto-Ge5KZx::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+.theme-dark ::-webkit-scrollbar-thumb, .chat-3bRxxu ::-webkit-scrollbar-thumb:hover {
+    background-color: green !important;
+    border-color: transparent !important;
+}
+.theme-dark ::-webkit-scrollbar-thumb, .chat-3bRxxu ::-webkit-scrollbar-thumb {
+    background-color: white !important;
+    border-color: transparent !important;
+}
+.theme-dark ::-webkit-scrollbar-thumb {
+    border-color: transparent !important;
+    background: rgba(11, 25, 38, 0.5) !important;
+}
+.theme-dark ::-webkit-scrollbar-thumb {
+    border-color: transparent !important;
+    background: rgba(11, 25, 38, 0.5) !important;
+}
+.theme-dark ::-webkit-scrollbar-thumb, .chat-3bRxxu ::-webkit-scrollbar-thumb {
+    background-color: grey !important; /* Modif couleur*/
+    border-color: transparent !important;
+}
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-auto-thumb);
+    min-height: 40px;
+}
+.auto-Ge5KZx::-webkit-scrollbar-thumb, .auto-Ge5KZx::-webkit-scrollbar-track {
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    border-radius: 8px;
+}
+.theme-dark ::-webkit-scrollbar-track-piece, .chat-3bRxxu ::-webkit-scrollbar-track-piece, .channels-Ie2l6A ::-webkit-scrollbar-track, .chat-3bRxxu ::-webkit-scrollbar-track {
+    background: transparent !important;
+    border-color: transparent !important;
+}
+.scroller-2LSbBU::-webkit-scrollbar-track {
+    margin-bottom: 8px;
+}
+.auto-Ge5KZx::-webkit-scrollbar-thumb, .auto-Ge5KZx::-webkit-scrollbar-track {
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    border-radius: 8px;
+}
+.auto-Ge5KZx::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-auto-track);
+}
+.theme-dark ::-webkit-scrollbar-track-piece, .chat-3bRxxu ::-webkit-scrollbar-track-piece, .channels-Ie2l6A ::-webkit-scrollbar-track, .chat-3bRxxu ::-webkit-scrollbar-track {
+    background: transparent !important;
+    border-color: transparent !important; 
+}
+/*------------------------------------------------------------*/
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+
+/*Hide sticker suggestions*/
+
+[class='container-Qj4uIL da-container'] {
+    display: none;
+}
+ .roleColor-rz2vM0 {
+ background-image: linear-gradient(to left, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+ animation: gradient-border 3s linear infinite;
+ background-size: 400% 100%;
+ color: transparent !important;
+ -webkit-background-clip: text;
+}
+@keyframes gradient-border {
+ 0%, 200% {
+     background-position: 0 0;
+ }
+
+ 99.999999999999999% {
+     background-position: 130% 0;
+ }
+}
+.sidebar-2K8pFh.hideElement .container-3baos1 {
+background-color: transparent !important;
+}
+.sidebar-2K8pFh.hideElement .container-3baos1 {
+background-color: transparent !important;
+}
+/*------------------------------------------------------------*/
+.notice-1tZwqv {
+  background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+/*------------------------------------------------------------*/
+.cozy-3raOZG .repliedMessage-VokQwo {
+    margin-bottom: var(--reply-spacing);
+}
+.repliedMessage-VokQwo {
+    --reply-spacing: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: var(--header-secondary);
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    position: relative;
+    white-space: pre;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*[user_by_bdfdb="489294976837222400"]*/ .header-QKLPzZ { /*background porfil utilisateur*/
+    background: url('https://i.imgur.com/KxtxKVO.jpg') center/cover no-repeat;
+    background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+.scroller-3BxosC {
+
+}
+/*.username-1A8OIy.clickable-1bVtEA {
+  content: "꧁༒☬Sôma☬༒꧂";
+}*/
+/*span[class^="emojiContainer-"] .emoji {
+  width: 28px;
+  height: 28px; }
+  
+span[class^="emojiContainer-"] .emoji.jumboable {
+    width: 3rem;
+    height: 3rem; }*/
+/*-----------------------------------------------------------------*/
+/*correction opacité */ 
+.platform-win .scroller-1Bvpku {
+  background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+.chat-3bRxxu, .threadSidebar-1o3BTy {
+  background-color: rgba(0,0,0,var(--cfix-opacity)); 
+}
+.platform-win .sidebar-2K8pFh {
+  background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+.applicationStore-1pNvnv, .platform-win .standardSidebarView-3F1I7i {
+  background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+/*-----------------------------------------------------------------*/
+.positionLayer-1KzSAt {
+  background-color: rgba(0,0,0,0);
+}
+/*-----------------------------------------------------------------*/ 
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ {
+    position: relative;
+    background: transparent;
+    transition: all .15s ease-in-out;
+}
+.layer-3QrUeG .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ {
+    height: unset;
+    padding: 8px 0 8px 20px;
+    margin: 0;
+    color: rgba(255,255,255,0.7);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: all .15s ease-in-out;
+    cursor: pointer;
+}
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ {
+    padding-left: 50px !important;
+}
+.themed-OHr7kt.item-PXvHYJ {
+    color: #fff;
+}
+/*----------------------*/
+/* mon compte*/
+..standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha {
+    background: transparent !important;
+    color: #fff !important;
+    transition: all .15s ease-in-out, background .3s .2s;
+}
+.layer-3QrUeG .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha, .layer-3QrUeG .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ {
+    position: relative;
+    background: transparent;
+    transition: all .15s ease-in-out;
+}
+.layer-3QrUeG .standardSidebarView-3F1I7i .side-8zPYf6 .item-PXvHYJ {
+    height: unset;
+    padding: 8px 0 8px 20px;
+    margin: 0;
+    color: rgba(255,255,255,0.8);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: all .15s ease-in-out;
+    cursor: pointer;
+}
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ {
+    padding-left: 50px !important;
+}
+.themed-OHr7kt.item-PXvHYJ {
+    color: #fff;
+}
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:before, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:before {
+    opacity: 1;
+}
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(2):before {
+    background-image: url(https://clearvision.gitlab.io/icons/person.svg);
+}
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:before {
+    opacity: .3;
+    transition: inherit;
+}
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 15px;
+    margin-top: -2px;
+}
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:after, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(255, 255, 255)"]:after {
+    right: 0;
+    background: var(--main-color);
+    -webkit-animation: cv-channel-select .3s ease-in-out;
+    animation: cv-channel-select .3s ease-in-out;
+}
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    left: 0;
+    opacity: .9;
+    transition: all .3s ease-in-out;
+    z-index: -1;
+    pointer-events: none;
+}
+::-webkit-scrollbar {
+    width: 14px !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color) !important;
+}
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
+    border: 3px solid transparent !important;
+    border-radius: 7px !important;
+    background-clip: padding-box !important;
+}
+::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+}
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
+    border: 3px solid transparent !important;
+    border-radius: 7px !important;
+    background-clip: padding-box !important;
+}
+::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+}
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
+    border: 3px solid transparent !important;
+    border-radius: 7px !important;
+    background-clip: padding-box !important;
+}
+::selection {
+    color: #fff;
+    background: var(--main-color);
+}
+/*----------------------*/
+/* sécurité */
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(3):before {
+    background-image: url(https://clearvision.gitlab.io/icons/security.svg);
+}
+/*----------------------*/
+/* applications */
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(4):before {
+    background-image: url(https://clearvision.gitlab.io/icons/apps.svg);
+}
+/*----------------------*/
+/* connexions*/
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(5):before {
+    background-image: url(https://clearvision.gitlab.io/icons/link.svg);
+}
+/*----------------------*/
+/* discord nitro*/
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(8):before {
+    background-image: url(https://clearvision.gitlab.io/icons/nitro.svg);
+}
+/*----------------------*/
+/* boost server */
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(9):before {
+    background-image: url(https://clearvision.gitlab.io/icons/server_boost.svg);
+}
+/*----------------------*/
+/* inventaire cadeaux */
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(10):before {
+    background-image: url(https://clearvision.gitlab.io/icons/gift.svg);
+}
+/*----------------------*/
+/* facturation */
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(11):before {
+    background-image: url(https://clearvision.gitlab.io/icons/payment.svg);
+}
+/*----------------------*/
+/* apparance*/
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(14):before, .platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(14):before, .platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(14):before, .platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(14):before {
+    background-image: url(https://clearvision.gitlab.io/icons/camera.svg);
+}
+/*----------------------*/
+/*voix et video */
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(16):before, .platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(16):before, .platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(16):before, .platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(16):before {
+    background-image: url(https://clearvision.gitlab.io/icons/mic.svg);
+}
+/*----------------------*/
+/* texte et images */
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(17):before, .platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(17):before, .platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(17):before, .platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(17):before {
+    background-image: url(https://clearvision.gitlab.io/icons/chat.svg);
+}
+/*----------------------*/
+/* notifications */
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(18):before, .platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(18):before, .platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(18):before, .platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(18):before {
+    background-image: url(https://clearvision.gitlab.io/icons/notifications.svg);
+}
+/*----------------------*/
+/* raccourcis clavier*/
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(19):before, .platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(19):before, .platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(19):before, .platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(19):before {
+    background-image: url(https://clearvision.gitlab.io/icons/keyboard.svg);
+}
+/*----------------------*/
+/*langue */
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(20):before, .platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(20):before, .platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(20):before, .platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(20):before {
+    background-image: url(https://clearvision.gitlab.io/icons/language.svg);
+}
+/*----------------------*/
+/* paramètres windows*/
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(21):before {
+    background-image: url(https://clearvision.gitlab.io/icons/windows.svg);
+}
+/*----------------------*/
+/*mode streamer*/
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(22):before, .platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(21):before, .platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(22):before, .platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(21):before {
+    background-image: url(https://clearvision.gitlab.io/icons/videocam.svg);
+}
+/*----------------------*/
+/* bugs / advenced */
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(23):before, .platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(22):before, .platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(23):before, .platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(22):before {
+    background-image: url(https://clearvision.gitlab.io/icons/bug.svg);
+}
+/*----------------------*/
+/* activités de jeu*/
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(26):before, .platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(25):before, .platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(26):before, .platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(25):before {
+    background-image: url(https://clearvision.gitlab.io/icons/games.svg);
+}
+/*----------------------*/
+/* overlay */
+.platform-win [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(27):before, .platform-osx [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(26):before, .platform-linux [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(27):before, .platform-web [aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-child(26):before {
+    background-image: url(https://clearvision.gitlab.io/icons/aspect_ratio.svg);
+}
+/*----------------------*/
+/* notes de mise a jour */
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-last-child(7):before {
+    background-image: url(https://clearvision.gitlab.io/icons/history.svg);
+}
+/*----------------------*/
+/* hypersquad*/
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e .item-PXvHYJ:nth-last-child(6):before {
+    background-image: url(https://clearvision.gitlab.io/icons/hypesquad.svg);
+}
+/*----------------------*/
+/*-----------------------------------------------------------------*/ 
+/* background thèmes */
+.bd-description-wrap {
+    flex: 1;
+    padding: 8px 16px 0 16px;
+    color: var(--header-primary);
+    background: var(--background-secondary-alt);
+}
+.bd-addon-list .bd-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px 16px 16px;
+    overflow: hidden;
+    color: var(--header-primary);
+    background: var(--background-secondary-alt);
+}
+
+/*-----------------------------------------------------------------*/ 
+.reaction-1hd86g .emoji{
+  width: 1rem;
+  height: 1rem;
+}
+.activity-1ythUs {
+  background: url('https://i.imgur.com/KxtxKVO.jpg') center/cover no-repeat;
+    background-color: rgba(0,0,0,var(--cfix-opacity));
+}
+/*-----------------------------------------------------------------*/ 
+.userPopout-xaxa6l[data-user-id="489294976837222400"] .container-q03LZO::before,
+.root-3QyAh1[data-user-id="489294976837222400"] .container-q03LZO::before {
+    content: "";
+    background: url("https://cdn.discordapp.com/emojis/790439995953381396.gif?v=1") center/contain no-repeat;
+    width: 18px;
+    height: 18px;
+    margin: 0 6px 6px 0;
+}
+/*-----------------------------------------------------------------*/ 
+.popoutBanner-19WKGg {
+  background: url("https://i.imgur.com/KxtxKVO.jpg") center/cover no-repeat;
+  width: 300px;
+    height: 120px;
+}
+.profileBanner-33-uE1 {
+  background: url("https://i.imgur.com/KxtxKVO.jpg") center/cover no-repeat;
+  width: 600px;
+    height: 240px;
+}
+/*-----------------------------------------------------------------*/ 
+[href^="https://discord.com/channels/"] {
+    line-height:0;
+    font-size:0;
+}
+[href^="https://discord.com/channels/"]::before {
+    content:'Jump to Message';
+    font-size:16px;
+    font-weight:700;
+}
+/*-----------------------------------------------------------------*/ 
+.scroller-1JbKMe::-webkit-scrollbar-thumb {
+    background-color:red!important;
+}
