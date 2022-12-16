@@ -10,16 +10,16 @@
 */
 
 
-@import url("https://raw.githubusercontent.com/Soma-Yukihira/BetterDiscord/master/Code/main.css");/* DON'T TOUCH */
+@import url("https://soma-yukihira.github.io/BetterDiscord/Code/main.css");/* DON'T TOUCH */
 
 /* ServerRings / Commente cette ligne si tu ne veux plus voir l'anneau lumineux autour des serveurs. */
-@import url("https://raw.githubusercontent.com/Soma-Yukihira/BetterDiscord/master/Code/ServerRings/ServerRings.css");
+@import url("https://soma-yukihira.github.io/BetterDiscord/Code/ServerRings/ServerRings.css");
 
 /* BlackBox tags */
 @import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
 
 /* Old Windows titlebar - remove this @import if you wish to use default titlebar */
-@import url("https://raw.githubusercontent.com/Soma-Yukihira/BetterDiscord/master/Code/windows-titlebar/windows-titlebar.css");
+@import url("https://soma-yukihira.github.io/BetterDiscord/Code/windows-titlebar/windows-titlebar.css");
 
 :root {
   /* Background image variables */
