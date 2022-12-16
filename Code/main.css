@@ -35,6 +35,8 @@
   --fb-overlay-size: var(--popout-modal-size, var(--overlay-image-size));
   --fb-overlay-position: var(--popout-modal-position, var(--overlay-image-position));
   --fb-overlay-repeat: var(--popout-modal-repeat, var(--overlay-image-repeat));
+
+  --transparency-1: linear-gradient(to left, rgba(0,0,0,0.1), rgba(0,0,0,0.8));
 }
 
 .theme-dark {
@@ -529,10 +531,10 @@ textarea {
   color: var(--text-normal);
 }
 
-#app-mount .sidebar-1tnWFu {
+/*#app-mount .sidebar-1tnWFu {
   border-radius: 0;
   background: rgb(0, 0, 0, var(--left-brightness));
-}
+}*/
 #app-mount .sidebar-1tnWFu .container-1NXEtd,
 #app-mount .sidebar-1tnWFu .privateChannels-oVe7HL,
 #app-mount .sidebar-1tnWFu .scroller-WSmht3 {
