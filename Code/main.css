@@ -1584,3 +1584,231 @@ html.platform-osx .scroller-2TZvBN {
     transform: translateY(0);
   }
 }
+
+/* --== Ajouts 17/12/2022 ==-- */
+
+/* --== Profil User background with darkness ==-- */
+#app-mount .userPopoutOuter-3AVBmJ .userPopoutInner-1hXSeY.userProfileInnerThemedNonPremium-1gT-zY .overlayBackground-1KgwVi{
+  background-image: url(https://i.imgur.com/XIH9dT4.jpg) ;
+  background-size: cover;
+  background-position: center;
+  margin-top: +50px;
+}
+.userProfileInnerThemedNonPremium-1gT-zY{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.scroller-1jBQYo, .customStatusSection-2TRu5f, .usernameSection-2d814A, .overlayBackground-1KgwVi{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.divider-1tWBgZ, .divider-1gzPrC{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.divider-1gzPrC{
+    margin: 0;
+    height: 0;
+}
+
+/* --== RGB Text bar + glow ==-- */
+.channelTextArea-1FufC0 > .scrollableContainer-15eg7h  { /* glow */
+box-shadow: 0px 0px var(--size-light) var(--color-light);
+}
+
+@keyframes RgbAni {
+   0% {
+      box-shadow: 0 0 0 3px #CCA6E7;
+      background-position: 0% 50%
+   }
+   25% {
+      box-shadow: 0 0 0 3px #CCA6E7;
+      background-position: 100% 25%
+   }
+   50% {
+      box-shadow: 0 0 0 3px #66C6EE;
+      background-position: 100% 50%
+   }
+   75% {
+      box-shadow: 0 0 0 3px #CCA6E7;
+      background-position: 100% 75%
+   }
+   100% {
+      box-shadow: 0 0 0 3px #CCA6E7;
+      background-position: 0% 50%
+   }
+}
+
+.channelTextArea-1FufC0, .scrollableContainer-15eg7h:focus-within {
+    animation: RgbAni 5s ease infinite;
+}
+
+
+/* --== Point message non lu ==-- */
+.unreadRelevant-2f-VSK{
+  background-color: var(--highlight);
+}
+
+
+/* --== Style new message bubble ==-- */
+.numberBadge-37OJ3S {
+  background-color: var(--highlight) !important;
+  color: var(--background);
+}
+
+/* --== Style channelgroup titles ==-- */
+.containerDefault-3TQ5YN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerDefault-3TQ5YN div div {
+  color: var(--highlight);
+}
+
+.arrow-2HswgU {
+  display: none;
+}
+
+.container-q97qHp .overflow-1wOqNV {
+  max-width: 8vw;
+}
+
+.containerDefault-3TQ5YN::before {
+  content: '\00a0';
+  width: 100%;
+  height: 2px;
+  margin-right: -11px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0) 0%, rgba(var(--rgb-highlight), 1) 100%);
+}
+
+.containerDefault-3TQ5YN::after {
+  content: '\00a0';
+  width: 100%;
+  height: 2px;
+  margin-left: -3px;
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0) 100%);
+}
+
+/* --== Style (edited) tag (modifié) ==-- */
+.cozy-VmLDNB .contents-2MsGLg div span time span {
+  color: var(--highlight);
+}
+
+/* --== Style Reply-marker ==-- */
+.replying-eZ7p5z:before {
+  background-color: var(--highlight);
+}
+
+/* --== Style Boost-Server page ==-- */
+.perksModalContentWrapper-3RHugb, .perksModal-CLcR1c {
+  /*background-image: url(https://i.imgur.com/XIH9dT4.jpg) ;*/
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.tierMarkerLabelPlusIcon-2zLkr7, .theme-dark .tierMarkerInProgress-2Tdxjz .currentTierIcon-2rq-bv.tier3Icon-959FdD,
+.theme-light .tierMarkerInProgress-2Tdxjz .currentTierIcon-2rq-bv.tier3Icon-959FdD, .badgeIconWithSubscribers-3PlMu9,
+.colorPremium-vwmYZQ .icon-E4cW1l {
+  color: var(--highlight) !important;
+}
+
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+  color: var(--highlight);
+  transition-duration: .3s;
+}
+
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo div svg path {
+  fill: var(--highlight);
+  transition-duration: .3s;
+}
+
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover div svg path {
+  fill: var(--background);
+}
+
+.theme-dark .icon-QVoPRH, .theme-light .icon-QVoPRH {
+  color: var(--highlight);
+}
+
+.wrapper-3Zq_cJ, .tierHeaderUnlocked-1IvR2R {
+  background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0.4) 100%) !important;
+}
+
+.theme-dark .tierUnlocked-25K6Kv, .theme-light .tierUnlocked-25K6Kv {
+  background-color: var(--background);
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+}
+
+.tierBody-3ju-rc {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+  border-top: none;
+}
+
+.tierHeaderLocked-3ItHYn {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+  border-bottom: none;
+}
+
+.theme-dark .tierMarkerBackground-G8FoN4, .theme-dark .barBackground-unEPDT,
+.tierMarkerSelectable-2WVYV- {
+  background-color: rgba(var(--rgb-highlight), 0.2) !important;
+}
+
+.perk-19D_HN {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+}
+
+.theme-dark .selectedTier-24Xj0k .tierMarker-Vw1C95, .theme-light .selectedTier-24Xj0k .tierMarker-Vw1C95,
+.barForeground-2kwBa_, .tierMarkerAccomplished-1SkbEJ, .tierMarkerInProgress-2Tdxjz[style="background: #ff73fa;"] {
+  background-color: var(--highlight) !important;
+}
+
+/* --== Style Server Boost Status/Stickers page ==-- */
+
+.tier-3CS7-p {
+  border: 1px solid var(--highlight);
+}
+
+.tierHeaderContent-2SPBAA, .tierBody-1d3UiS {
+  background-color: var(--background) !important;
+}
+
+
+/* --== Change Color Text Edit with timestamp ==- */
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+        content: " (" attr(aria-label) ")";
+        color:  var(--highlight);
+        font-size: 0.625rem;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: lowercase;
+}
+
+.edited-1v5nT8:not(.message-translate-indicator) {
+    display: none;
+}
+
+/* --== Spoiler Blur ==-- */
+.spoilerText-27bIiA,
+.spoilerText-27bIiA.hidden-3B-Rum {
+    background-color: transparent !important;
+}
+
+.spoilerText-27bIiA.hidden-3B-Rum > .inlineContent-2YnoDy {
+    opacity: 1 !important;
+    filter: blur(3px);
+    pointer-events: unset;
+}

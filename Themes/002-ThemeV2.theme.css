@@ -74,6 +74,15 @@
   --server-spacing: 16px;
   --server-glow-intensity: 1;
 
+  /* Taille de la diffusion de la lumière sur la zone de texte */
+  --size-light: 20px;
+  /* Couleur de la lumieère sur la zone de texte */
+  --color-light: white;
+  /* Couleur générale du thème */
+  --highlight:  #F64A8A; /*Default : #F64A8A */
+
+  --rgb-highlight: 4, 217, 255; /* Default : 4, 217, 255 */
+
   /* Do not touch */
   --update-notice-1: none;
 }
