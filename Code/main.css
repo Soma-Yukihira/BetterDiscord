@@ -1812,3 +1812,8 @@ box-shadow: 0px 0px var(--size-light) var(--color-light);
     filter: blur(3px);
     pointer-events: unset;
 }
+
+/* --== Color Text for Unread Messages ==-- */
+.modeConnected-NrO4cP .name-28HaxV, .modeConnected-NrO4cP:hover .name-28HaxV, .modeSelected-3DmyhH .name-28HaxV, .modeSelected-3DmyhH:hover .name-28HaxV, .modeUnread-3Cxepe .name-28HaxV, .modeUnread-3Cxepe:hover .name-28HaxV, .notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV, .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+    color: var(--highlight);
+}
