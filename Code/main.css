@@ -808,7 +808,7 @@ textarea {
 }
 #app-mount .userPopoutOuter-3AVBmJ::before {
   content: "";
-  background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-image);
+  /*background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-image);*/
   background-position: var(--fb-popout-position, center);
   background-size: var(--fb-popout-size, cover);
   background-attachment: var(--fb-popout-attachment, fixed);
