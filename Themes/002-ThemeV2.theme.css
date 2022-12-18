@@ -29,6 +29,7 @@
   --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
 
   /* Popout & Modal variables */
+  --background-profil-user : url('https://i.imgur.com/XIH9dT4.jpg'); /* Main background profil image | Default : https://i.imgur.com/XIH9dT4.jpg */
   --popout-modal-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --popout-modal-blur: 5px; /* Blur intensity of --popout-modal-image | Must end in px | DEFAULT: 5px */
   --popout-modal-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */

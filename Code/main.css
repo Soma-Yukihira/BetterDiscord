@@ -1589,7 +1589,7 @@ html.platform-osx .scroller-2TZvBN {
 
 /* --== Profil User background with darkness ==-- */
 #app-mount .userPopoutOuter-3AVBmJ .userPopoutInner-1hXSeY.userProfileInnerThemedNonPremium-1gT-zY .overlayBackground-1KgwVi{
-  background-image: url(https://i.imgur.com/XIH9dT4.jpg) ;
+  background-image: var(--background-profil-user);
   background-size: cover;
   background-position: center;
   margin-top: +50px;
