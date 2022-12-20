@@ -27,6 +27,7 @@
   --background-image-blur: 0px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
   --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
   --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+  --background-image-error-plugin-change-audio: url('https://i.imgur.com/pQdLyIO.jpg?1');
 
   /* Popout & Modal variables */
   --background-profil-user : url('https://i.imgur.com/XIH9dT4.jpg'); /* Main background profil image | Default : https://i.imgur.com/XIH9dT4.jpg */
@@ -75,10 +76,10 @@
   --server-spacing: 16px;
   --server-glow-intensity: 1;
 
-  /* Taille de la diffusion de la lumière sur la zone de texte */
-  --size-light: 20px;
-  /* Couleur de la lumieère sur la zone de texte */
-  --color-light: white;
+  /* --== RGB Text bar + glow ==-- */
+  --size-light: 20px; /* Taille de la diffusion de la lumière sur la zone de texte */
+  --color-light: white;/* Couleur de la lumieère sur la zone de texte */
+
   /* Couleur générale du thème */
   --highlight:  #F64A8A; /*Default : #F64A8A */
 
