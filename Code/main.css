@@ -1838,7 +1838,7 @@ box-shadow: 0px 0px var(--size-light) var(--color-light);
   background-image: var(--background-image-error-plugin-change-audio);
 }
 
-/* --== Darkness for background ==-- */
+/* --== Darkness for background Error Plugin / enter audio ==-- */
 .footer-31IekZ, .content-2hZxGK, .header-1zd7se{
   background-color: rgb(0, 0, 0, 0.3);
 }
