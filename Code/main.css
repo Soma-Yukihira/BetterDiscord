@@ -1652,7 +1652,7 @@ box-shadow: 0px 0px var(--size-light) var(--color-light);
 /* --== Style new message bubble ==-- */
 .numberBadge-37OJ3S {
   background-color: var(--highlight) !important;
-  color: var(--background);
+  color: var(--background-bubble);
 }
 
 /* --== Style channelgroup titles ==-- */
@@ -1841,4 +1841,33 @@ box-shadow: 0px 0px var(--size-light) var(--color-light);
 /* --== Darkness for background Error Plugin / enter audio ==-- */
 .footer-31IekZ, .content-2hZxGK, .header-1zd7se{
   background-color: rgb(0, 0, 0, 0.6);
+}
+
+/* --== Ajouts 21/12/2022 ==-- */
+
+/* --== Activer la communauté darkness ==-- */
+.modal-1gWd9S,{
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.overviewSidebar-3JDLaJ{
+  background: rgb(0, 0, 0, 0.65);
+}
+
+.popout-1KHNAq {
+  background: rgb(0, 0, 0, 0.8);
+}
+
+.lookFilled-1GseHa.select-1Ia3hD{
+  background: rgb(0, 0, 0, 0.5);
+}
+
+/* --== écran acceuil communauté ==-- */
+.modalContents-CkPqoE, .footer-Shj_1t{
+  background: rgb(0, 0, 0, 0.7);
+}
+
+/* --== Boost Serveur ==-- */
+.content-2eQb8J{
+  background: rgb(0, 0, 0, 0.6);
 }
