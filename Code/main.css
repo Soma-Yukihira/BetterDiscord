@@ -1592,6 +1592,7 @@ html.platform-osx .scroller-2TZvBN {
   background-image: var(--background-profil-user);
   background-size: cover;
   background-position: center;
+  background-position: top;
   margin-top: +50px;
 }
 .userProfileInnerThemedNonPremium-1gT-zY{
