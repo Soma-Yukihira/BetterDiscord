@@ -1617,23 +1617,23 @@ box-shadow: 0px 0px var(--size-light) var(--color-light);
 
 @keyframes RgbAni {
    0% {
-      box-shadow: 0 0 0 3px #CCA6E7;
+      box-shadow: 0 0 0 3px var(--color-rgb-1);
       background-position: 0% 50%
    }
    25% {
-      box-shadow: 0 0 0 3px #CCA6E7;
+      box-shadow: 0 0 0 3px var(--color-rgb-2);
       background-position: 100% 25%
    }
    50% {
-      box-shadow: 0 0 0 3px #66C6EE;
+      box-shadow: 0 0 0 3px var(--color-rgb-3);
       background-position: 100% 50%
    }
    75% {
-      box-shadow: 0 0 0 3px #CCA6E7;
+      box-shadow: 0 0 0 3px var(--color-rgb-4);
       background-position: 100% 75%
    }
    100% {
-      box-shadow: 0 0 0 3px #CCA6E7;
+      box-shadow: 0 0 0 3px var(--color-rgb-5);
       background-position: 0% 50%
    }
 }

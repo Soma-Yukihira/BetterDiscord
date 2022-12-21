@@ -79,11 +79,16 @@
   /* --== RGB Text bar + glow ==-- */
   --size-light: 20px; /* Taille de la diffusion de la lumière sur la zone de texte */
   --color-light: white;/* Couleur de la lumieère sur la zone de texte */
+  --color-rgb-1: #CCA6E7; /* Couleur RGB de la zone de texte */
+  --color-rgb-2: #CCA6E7;
+  --color-rgb-3: #66C6EE;
+  --color-rgb-4: #CCA6E7;
+  --color-rgb-5: #CCA6E7;
 
   /* Couleur générale du thème */
   --highlight:  #F64A8A; /*Default : #F64A8A */
 
-  --rgb-highlight: 4, 217, 255; /* Default : 4, 217, 255 */
+  --rgb-highlight: 4, 217, 255; /* Default : 4, 217, 255 color bar name channels */
 
   /* Do not touch */
   --update-notice-1: none;
