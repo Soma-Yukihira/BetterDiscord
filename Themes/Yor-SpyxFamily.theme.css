@@ -27,10 +27,10 @@
   --background-image-blur: 0px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
   --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
   --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
-  --background-image-error-plugin-change-audio: url('https://i.imgur.com/75xqhhb.jpg');
+  --background-image-error-plugin-change-audio: url('https://i.imgur.com/75xqhhb.jpg'); /* DEFAULT : https://i.imgur.com/75xqhhb.jpg */
 
   /* Popout & Modal variables */
-  --background-profil-user : url('https://i.imgur.com/37dO36C.png'); /* Main background profil image | Default : https://i.imgur.com/XIH9dT4.jpg */
+  --background-profil-user : url('https://i.imgur.com/37dO36C.png'); /* Main background profil image | Default : https://i.imgur.com/37dO36C.png */
   --popout-modal-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --popout-modal-blur: 5px; /* Blur intensity of --popout-modal-image | Must end in px | DEFAULT: 5px */
   --popout-modal-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
@@ -42,9 +42,9 @@
   --home-button-position: center; /* Position of home button image | DEAFULT: center */
 
   /* Brightness variables */
-  --serverlist-brightness: 0.65; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
-  --left-brightness: 0.65; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
-  --middle-brightness: 0.65; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+  --serverlist-brightness: 0.65; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.65 */
+  --left-brightness: 0.65; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.65 */
+  --middle-brightness: 0.65; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.65 */
   --right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
   --popout-modal-brightness: 0.75; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
@@ -61,7 +61,7 @@
   --window-padding: 8px; /* Spacing around the Discord window | DEFAULT: 20px */
   --window-roundness: 10px; /* Roundness of Discord | DEFAULT: 10px */
   --scrollbar-colour: rgba(255,255,255,0.05); /* DEFAULT: rgba(255,255,255,0.05) */
-  --link-colour: #f1b97c; /* DEFAULT: #00b0f4 */
+  --link-colour: #f1b97c; /* DEFAULT: #f1b97c */
 
   /*
     Visit https://fonts.google.com and select one to your liking.
@@ -70,29 +70,27 @@
   --font: 'gg sans';
 
   /*Config pour Servers Rings */
-  --server-unread-colour: 241, 185, 124;
-  --server-hover-colour: 255, 255, 255;
-  --server-selected-colour: var(--accent, 52, 184, 237);
+  --server-unread-colour: 241, 185, 124; /* DEFAULT : 241, 185, 124 */
+  --server-hover-colour: 255, 255, 255; /* DEFAULT : 255, 255, 255 */
+  --server-selected-colour: var(--accent, 52, 184, 237); /* DEFAULT :  */
   --server-spacing: 16px;
   --server-glow-intensity: 1;
   --background-bubble: black; /* background color mentions server */
-  --color-mention-server: #f1b97c;
+  --color-mention-server: #f1b97c; /* DEFAULT : #f1b97c */
 
   /* --== RGB Text bar + glow ==-- */
-  --size-light: 20px; /* Taille de la diffusion de la lumière sur la zone de texte */
-  --color-light: white;/* Couleur de la lumieère sur la zone de texte */
-  --color-rgb-1: #6a4660;
-  --color-rgb-2: #9c5e2d;
-  --color-rgb-3: #c9c0ff;
-  --color-rgb-4: #b17b71;
-  --color-rgb-5: #9f4640;
+  --size-light: 20px; /* DEFAULT :  | Taille de la diffusion de la lumière sur la zone de texte */
+  --color-light: white;/* DEFAULT : white | Couleur de la lumieère sur la zone de texte */
+  --color-rgb-1: #6a4660; /* DEFAULT : #6a4660 */
+  --color-rgb-2: #9c5e2d; /* DEFAULT : #9c5e2d */
+  --color-rgb-3: #c9c0ff; /* DEFAULT : #c9c0ff */
+  --color-rgb-4: #b17b71; /* DEFAULT : #b17b71 */
+  --color-rgb-5: #9f4640; /* DEFAULT : #9f4640 */
 
   /* Couleur générale du thème */
-  --highlight:  #c8bfff; /*Default : #F64A8A */
+  --highlight:  #c8bfff; /*Default : #c8bfff */
 
-  --rgb-highlight: 215, 41, 140; /* Default : 4, 217, 255  color bar name channels */
-
-
+  --rgb-highlight: 215, 41, 140; /* Default : 215, 41, 140  color bar name channels */
 
   /* Do not touch */
   --update-notice-1: none;
