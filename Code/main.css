@@ -1651,7 +1651,7 @@ box-shadow: 0px 0px var(--size-light) var(--color-light);
 
 /* --== Style new message bubble ==-- */
 .numberBadge-37OJ3S {
-  background-color: var(--highlight) !important;
+  background-color: var(--color-mention-server) !important;
   color: var(--background-bubble);
 }
 
