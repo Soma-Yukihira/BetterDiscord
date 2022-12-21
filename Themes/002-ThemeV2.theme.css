@@ -75,6 +75,8 @@
   --server-selected-colour: var(--accent, 0, 231, 169);
   --server-spacing: 16px;
   --server-glow-intensity: 1;
+  --background-bubble: black; /* background color mentions server */
+  --color-mention-server: #F64A8A;
 
   /* --== RGB Text bar + glow ==-- */
   --size-light: 20px; /* Taille de la diffusion de la lumière sur la zone de texte */
