@@ -1,0 +1,90 @@
+/**
+ * @name Yor Spy x Family Theme
+ * @author -SK_#0570
+ * @authorId 489294976837222400
+ * @version 3.0.0
+ * @description Thème Yor [Spy x Family], Le thème sombre est requis.
+ * @invite uUCgQntHTe
+ * @donate https://paypal.me/SukunaItadorii
+ * @source https://github.com/Soma-Yukihira/BetterDiscordThemes
+*/
+
+
+@import url("https://soma-yukihira.github.io/BetterDiscord/Code/main.css");/* DON'T TOUCH */
+
+/* ServerRings / Commente cette ligne si tu ne veux plus voir l'anneau lumineux autour des serveurs. */
+@import url("https://soma-yukihira.github.io/BetterDiscord/Code/Addons/ServerRings.css");
+
+/* BlackBox tags */
+@import url('https://monstrousdev.github.io/themes/addons/user-tags.css');
+
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+@import url("https://soma-yukihira.github.io/BetterDiscord/Code/Addons/windows-titlebar.css");
+
+:root {
+  /* Background image variables */
+  --background-image: url('https://i.imgur.com/3rEr3sQ.jpg'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image-blur: 0px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
+  --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
+  --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+  --background-image-error-plugin-change-audio: url('https://i.imgur.com/pQdLyIO.jpg?1');
+
+  /* Popout & Modal variables */
+  --background-profil-user : url('https://i.imgur.com/XIH9dT4.jpg'); /* Main background profil image | Default : https://i.imgur.com/XIH9dT4.jpg */
+  --popout-modal-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --popout-modal-blur: 5px; /* Blur intensity of --popout-modal-image | Must end in px | DEFAULT: 5px */
+  --popout-modal-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
+  --popout-modal-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+
+  /* Home image variables */
+  --home-button-image: url('https://i.imgur.com/K2NTup2.gif'); /* Home button image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --home-button-size: cover; /* Size of the home button image | DEFAUT: cover */
+  --home-button-position: center; /* Position of home button image | DEAFULT: center */
+
+  /* Brightness variables */
+  --serverlist-brightness: 0.8; /* Brightness for serverlist | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --left-brightness: 0.8; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
+  --middle-brightness: 0.8; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
+  --right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+  --popout-modal-brightness: 0.75; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
+
+  /* Gradient variables */
+  --gradient-primary: 103,58,183; /* DEFAULT: 103,58,183 */
+  --gradient-secondary: 63,81,181; /* DEFAULT: 63,81,181 */
+  --gradient-direction: 320deg; /* DEFAULT: 320deg */
+
+  /* Tint variables */
+  --tint-colour: 255,51,159; /* Colour of tint | DEAFULT: 255,51,159 */
+  --tint-brightness: 0; /* Brightness of --tint-colour | 0 - 1 (decimals allowed) | DEFAULT: 0 */
+
+  /* Other variables */
+  --window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
+  --window-roundness: 10px; /* Roundness of Discord | DEFAULT: 10px */
+  --scrollbar-colour: rgba(255,255,255,0.05); /* DEFAULT: rgba(255,255,255,0.05) */
+  --link-colour: #00b0f4; /* DEFAULT: #00b0f4 */
+
+  /*
+    Visit https://fonts.google.com and select one to your liking.
+    Now just follow this tutorial: https://imgur.com/a/CNbw7xC
+  */
+  --font: 'gg sans';
+
+  /*Config pour Servers Rings */
+  --server-unread-colour: 255, 255, 255;
+  --server-hover-colour: 255, 255, 255;
+  --server-selected-colour: var(--accent, 0, 231, 169);
+  --server-spacing: 16px;
+  --server-glow-intensity: 1;
+
+  /* --== RGB Text bar + glow ==-- */
+  --size-light: 20px; /* Taille de la diffusion de la lumière sur la zone de texte */
+  --color-light: white;/* Couleur de la lumieère sur la zone de texte */
+
+  /* Couleur générale du thème */
+  --highlight:  #F64A8A; /*Default : #F64A8A */
+
+  --rgb-highlight: 4, 217, 255; /* Default : 4, 217, 255 */
+
+  /* Do not touch */
+  --update-notice-1: none;
+}
