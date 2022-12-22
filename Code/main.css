@@ -1887,3 +1887,29 @@ box-shadow: 0px 0px var(--size-light) var(--color-light);
 .theme-dark .footer-1hTRRZ{
   background-color: rgb(0, 0, 0, 0.6);
 }
+
+/* --== Ajouts 22/12/2022 ==-- */
+
+/* --== Créer un serveur ==-- */
+.title-1_TkpU, .footerTitle-3Bslxi{
+  color: white;
+}
+.close-1mLglB{
+  color: white;
+}
+.close-1mLglB:hover{
+  opacity: 1;
+  color: #f1b97c;
+}
+.optionHeader-27AHfD, .subtitle-3m-md1{
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+.container-x8Y1ix:hover {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+/* --== Pôle étudiant découverte serveur ==-- */
+.scroller-RfJjkV{
+  background-color: rgb(0, 0, 0, var(--middle-brightness));
+}
