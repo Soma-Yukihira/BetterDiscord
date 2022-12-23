@@ -1595,24 +1595,24 @@ html.platform-osx .scroller-2TZvBN {
   background-position: top;
   margin-top: +50px;
 }
-.userProfileInnerThemedNonPremium-1gT-zY{
+#app-mount .userProfileInnerThemedNonPremium-1gT-zY{
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.scroller-1jBQYo, .customStatusSection-2TRu5f, .usernameSection-2d814A, .overlayBackground-1KgwVi{
+#app-mount .scroller-1jBQYo, .customStatusSection-2TRu5f, .usernameSection-2d814A, .overlayBackground-1KgwVi{
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.divider-1tWBgZ, .divider-1gzPrC{
+#app-mount .divider-1tWBgZ, .divider-1gzPrC{
   background-color: rgba(0, 0, 0, 0.6);
 }
-.divider-1gzPrC{
+#app-mount .divider-1gzPrC{
     margin: 0;
     height: 0;
 }
 
 /* --== RGB Text bar + glow ==-- */
-.channelTextArea-1FufC0 > .scrollableContainer-15eg7h  { /* glow */
+#app-mount .channelTextArea-1FufC0 > .scrollableContainer-15eg7h  { /* glow */
 box-shadow: 0px 0px var(--size-light) var(--color-light);
 }
 
@@ -1639,43 +1639,43 @@ box-shadow: 0px 0px var(--size-light) var(--color-light);
    }
 }
 
-.channelTextArea-1FufC0, .scrollableContainer-15eg7h:focus-within {
+#app-mount .channelTextArea-1FufC0, .scrollableContainer-15eg7h:focus-within {
     animation: RgbAni 5s ease infinite;
 }
 
 
 /* --== Point message non lu ==-- */
-.unreadRelevant-2f-VSK{
+#app-mount .unreadRelevant-2f-VSK{
   background-color: var(--highlight);
 }
 
 
 /* --== Style new message bubble ==-- */
-.numberBadge-37OJ3S {
+#app-mount .numberBadge-37OJ3S {
   background-color: var(--color-mention-server) !important;
   color: var(--background-bubble);
 }
 
 /* --== Style channelgroup titles ==-- */
-.containerDefault-3TQ5YN {
+#app-mount .containerDefault-3TQ5YN {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.containerDefault-3TQ5YN div div {
+#app-mount .containerDefault-3TQ5YN div div {
   color: var(--highlight);
 }
 
-.arrow-2HswgU {
+#app-mount .arrow-2HswgU {
   display: none;
 }
 
-.container-q97qHp .overflow-1wOqNV {
+#app-mount .container-q97qHp .overflow-1wOqNV {
   max-width: 8vw;
 }
 
-.containerDefault-3TQ5YN::before {
+#app-mount .containerDefault-3TQ5YN::before {
   content: '\00a0';
   width: 100%;
   height: 2px;
@@ -1684,7 +1684,7 @@ box-shadow: 0px 0px var(--size-light) var(--color-light);
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0) 0%, rgba(var(--rgb-highlight), 1) 100%);
 }
 
-.containerDefault-3TQ5YN::after {
+#app-mount .containerDefault-3TQ5YN::after {
   content: '\00a0';
   width: 100%;
   height: 2px;
@@ -1694,102 +1694,102 @@ box-shadow: 0px 0px var(--size-light) var(--color-light);
 }
 
 /* --== Style (edited) tag (modifié) ==-- */
-.cozy-VmLDNB .contents-2MsGLg div span time span {
+#app-mount .cozy-VmLDNB .contents-2MsGLg div span time span {
   color: var(--highlight);
 }
 
 /* --== Style Reply-marker ==-- */
-.replying-eZ7p5z:before {
+#app-mount .replying-eZ7p5z:before {
   background-color: var(--highlight);
 }
 
 /* --== Style Boost-Server page ==-- */
-.perksModalContentWrapper-3RHugb, .perksModal-CLcR1c {
+#app-mount .perksModalContentWrapper-3RHugb, .perksModal-CLcR1c {
   /*background-image: url(https://i.imgur.com/XIH9dT4.jpg) ;*/
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.tierMarkerLabelPlusIcon-2zLkr7, .theme-dark .tierMarkerInProgress-2Tdxjz .currentTierIcon-2rq-bv.tier3Icon-959FdD,
+#app-mount .tierMarkerLabelPlusIcon-2zLkr7, .theme-dark .tierMarkerInProgress-2Tdxjz .currentTierIcon-2rq-bv.tier3Icon-959FdD,
 .theme-light .tierMarkerInProgress-2Tdxjz .currentTierIcon-2rq-bv.tier3Icon-959FdD, .badgeIconWithSubscribers-3PlMu9,
 .colorPremium-vwmYZQ .icon-E4cW1l {
   color: var(--highlight) !important;
 }
 
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+#app-mount .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
   background-color: var(--background);
   border: 1px solid var(--highlight);
   color: var(--highlight);
   transition-duration: .3s;
 }
 
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo div svg path {
+#app-mount .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo div svg path {
   fill: var(--highlight);
   transition-duration: .3s;
 }
 
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+#app-mount .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
   background-color: var(--highlight);
   color: var(--background);
 }
 
-.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover div svg path {
+#app-mount .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover div svg path {
   fill: var(--background);
 }
 
-.theme-dark .icon-QVoPRH, .theme-light .icon-QVoPRH {
+#app-mount .theme-dark .icon-QVoPRH, .theme-light .icon-QVoPRH {
   color: var(--highlight);
 }
 
-.wrapper-3Zq_cJ, .tierHeaderUnlocked-1IvR2R {
+#app-mount .wrapper-3Zq_cJ, .tierHeaderUnlocked-1IvR2R {
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 1) 0%, rgba(var(--rgb-highlight), 0.4) 100%) !important;
 }
 
-.theme-dark .tierUnlocked-25K6Kv, .theme-light .tierUnlocked-25K6Kv {
+#app-mount .theme-dark .tierUnlocked-25K6Kv, .theme-light .tierUnlocked-25K6Kv {
   background-color: var(--background);
   color: var(--highlight);
   border: 1px solid var(--highlight);
 }
 
-.tierBody-3ju-rc {
+#app-mount .tierBody-3ju-rc {
   background-color: var(--background) !important;
   border: 1px solid var(--highlight);
   border-top: none;
 }
 
-.tierHeaderLocked-3ItHYn {
+#app-mount .tierHeaderLocked-3ItHYn {
   background-color: var(--background) !important;
   border: 1px solid var(--highlight);
   border-bottom: none;
 }
 
-.theme-dark .tierMarkerBackground-G8FoN4, .theme-dark .barBackground-unEPDT,
+#app-mount .theme-dark .tierMarkerBackground-G8FoN4, .theme-dark .barBackground-unEPDT,
 .tierMarkerSelectable-2WVYV- {
   background-color: rgba(var(--rgb-highlight), 0.2) !important;
 }
 
-.perk-19D_HN {
+#app-mount .perk-19D_HN {
   background-color: var(--background) !important;
   border: 1px solid var(--highlight);
 }
 
-.theme-dark .selectedTier-24Xj0k .tierMarker-Vw1C95, .theme-light .selectedTier-24Xj0k .tierMarker-Vw1C95,
+#app-mount .theme-dark .selectedTier-24Xj0k .tierMarker-Vw1C95, .theme-light .selectedTier-24Xj0k .tierMarker-Vw1C95,
 .barForeground-2kwBa_, .tierMarkerAccomplished-1SkbEJ, .tierMarkerInProgress-2Tdxjz[style="background: #ff73fa;"] {
   background-color: var(--highlight) !important;
 }
 
 /* --== Style Server Boost Status/Stickers page ==-- */
 
-.tier-3CS7-p {
+#app-mount .tier-3CS7-p {
   border: 1px solid var(--highlight);
 }
 
-.tierHeaderContent-2SPBAA, .tierBody-1d3UiS {
+#app-mount .tierHeaderContent-2SPBAA, .tierBody-1d3UiS {
   background-color: var(--background) !important;
 }
 
 
 /* --== Change Color Text Edit with timestamp ==- */
-.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+#app-mount .timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
         content: " (" attr(aria-label) ")";
         color:  var(--highlight);
         font-size: 0.625rem;
@@ -1798,118 +1798,118 @@ box-shadow: 0px 0px var(--size-light) var(--color-light);
         text-transform: lowercase;
 }
 
-.edited-1v5nT8:not(.message-translate-indicator) {
+#app-mount .edited-1v5nT8:not(.message-translate-indicator) {
     display: none;
 }
 
 /* --== Spoiler Blur ==-- */
-.spoilerText-27bIiA,
+#app-mount .spoilerText-27bIiA,
 .spoilerText-27bIiA.hidden-3B-Rum {
     background-color: transparent !important;
 }
 
-.spoilerText-27bIiA.hidden-3B-Rum > .inlineContent-2YnoDy {
+#app-mount .spoilerText-27bIiA.hidden-3B-Rum > .inlineContent-2YnoDy {
     opacity: 1 !important;
     filter: blur(3px);
     pointer-events: unset;
 }
 
 /* --== Color Text for Unread Messages ==-- */
-.modeConnected-NrO4cP .name-28HaxV, .modeConnected-NrO4cP:hover .name-28HaxV, .modeSelected-3DmyhH .name-28HaxV, .modeSelected-3DmyhH:hover .name-28HaxV, .modeUnread-3Cxepe .name-28HaxV, .modeUnread-3Cxepe:hover .name-28HaxV, .notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV, .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+#app-mount .modeConnected-NrO4cP .name-28HaxV, .modeConnected-NrO4cP:hover .name-28HaxV, .modeSelected-3DmyhH .name-28HaxV, .modeSelected-3DmyhH:hover .name-28HaxV, .modeUnread-3Cxepe .name-28HaxV, .modeUnread-3Cxepe:hover .name-28HaxV, .notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV, .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
     color: var(--highlight);
 }
 
 /* --== Ajouts 20/12/2022 ==-- */
 
 /* --== Augmente la marge de la notification des mise à jour BD ==-- */
-.bd-notice{
+#app-mount .bd-notice{
   padding-top: 11px;
 }
 
 /* --== Décalage du bouton exit de la notif vers la gauche ==-- */
-.bd-notice-close{
+#app-mount .bd-notice-close{
   margin-right: 11%;
   margin-top: 5px;
 }
 
 /* --== Error Plugin / Change enter audio ==-- */
-.large-1XKv7D, .medium-1ywRMv, .small-23Atuv {
+#app-mount .large-1XKv7D, .medium-1ywRMv, .small-23Atuv {
   background-position: center;
   background-size: cover;
   background-image: var(--background-image-error-plugin-change-audio);
 }
 
 /* --== Darkness for background Error Plugin / enter audio ==-- */
-.footer-31IekZ, .content-2hZxGK, .header-1zd7se{
+#app-mount .footer-31IekZ, .content-2hZxGK, .header-1zd7se{
   background-color: rgb(0, 0, 0, 0.6);
 }
 
 /* --== Ajouts 21/12/2022 ==-- */
 
 /* --== Activer la communauté darkness ==-- */
-.modal-1gWd9S,{
+#app-mount .modal-1gWd9S,{
   background-color: rgb(0, 0, 0, 0.5);
 }
 
-.overviewSidebar-3JDLaJ{
+#app-mount .overviewSidebar-3JDLaJ{
   background: rgb(0, 0, 0, 0.65);
 }
 
-.popout-1KHNAq {
+#app-mount .popout-1KHNAq {
   background: rgb(0, 0, 0, 0.8);
 }
 
-.lookFilled-1GseHa.select-1Ia3hD{
+#app-mount .lookFilled-1GseHa.select-1Ia3hD{
   background: rgb(0, 0, 0, 0.5);
 }
 
 /* --== écran acceuil communauté ==-- */
-.modalContents-CkPqoE, .footer-Shj_1t{
+#app-mount .modalContents-CkPqoE, .footer-Shj_1t{
   background: rgb(0, 0, 0, 0.7);
 }
 
 /* --== Boost Serveur ==-- */
-.content-2eQb8J{
+#app-mount .content-2eQb8J{
   background: rgb(0, 0, 0, 0.6);
 }
 
 /* --== Boîte de récéption ==-- */
-.container-2ebMPP{
+#app-mount .container-2ebMPP{
   background: rgb(0, 0, 0, 0.8);
 }
 
 
 /* --== Invite qqn dans le serveur ==-- */
-.scroller-3nFW5p{
+#app-mount .scroller-3nFW5p{
   background: rgb(0, 0, 0, 0.6);
 }
 
-.theme-dark .footer-1hTRRZ{
+#app-mount .theme-dark .footer-1hTRRZ{
   background-color: rgb(0, 0, 0, 0.6);
 }
 
 /* --== Ajouts 22/12/2022 ==-- */
 
 /* --== Créer un serveur ==-- */
-.title-1_TkpU, .footerTitle-3Bslxi{
+#app-mount .title-1_TkpU, .footerTitle-3Bslxi{
   color: white;
 }
-.close-1mLglB{
+#app-mount .close-1mLglB{
   color: white;
 }
-.close-1mLglB:hover{
+#app-mount .close-1mLglB:hover{
   opacity: 1;
   color: #f1b97c;
 }
-.optionHeader-27AHfD, .subtitle-3m-md1{
+#app-mount .optionHeader-27AHfD, .subtitle-3m-md1{
   background-color: rgb(255, 255, 255, 0.8);
   border-radius: 10px;
 }
-.container-x8Y1ix:hover {
+#app-mount .container-x8Y1ix:hover {
   background-color: rgb(255, 255, 255, 0.5);
 }
 
 /* --== Pôle étudiant découverte serveur ==-- */
-.scroller-RfJjkV{
+#app-mount .scroller-RfJjkV{
   background-color: rgb(0, 0, 0, var(--middle-brightness));
 }
